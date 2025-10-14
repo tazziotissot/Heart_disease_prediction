@@ -1,0 +1,2 @@
+# Heart disease predictions
+This repository contains the code of a personal project with the aim of predicting the risk of heart disease in American patients from health tabular data. This project focuses on the analysis of the *Indicators of Heart Disease (2022 update)* dataset ([source](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)), which contains responses of >400k adults to an annual health survey from the CDC in the USA.

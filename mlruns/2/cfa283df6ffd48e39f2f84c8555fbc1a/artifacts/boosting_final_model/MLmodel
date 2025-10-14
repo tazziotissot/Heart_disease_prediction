@@ -1,0 +1,49 @@
+artifact_path: boosting_final_model
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.10.12
+mlflow_version: 2.9.2
+model_size_bytes: 38628088
+model_uuid: 2fba8e572384457a9d501fce2e9deaeb
+run_id: cfa283df6ffd48e39f2f84c8555fbc1a
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "GeneralHealth"}, {"type": "double", "name":
+    "PhysicalHealthDays"}, {"type": "double", "name": "AgeCategory"}, {"type": "double",
+    "name": "WeightInKilograms"}, {"type": "double", "name": "BMI"}, {"type": "double",
+    "name": "PhysicalActivities"}, {"type": "double", "name": "HadAngina"}, {"type":
+    "double", "name": "HadStroke"}, {"type": "double", "name": "HadAsthma"}, {"type":
+    "double", "name": "HadSkinCancer"}, {"type": "double", "name": "HadCOPD"}, {"type":
+    "double", "name": "HadDepressiveDisorder"}, {"type": "double", "name": "HadKidneyDisease"},
+    {"type": "double", "name": "HadArthritis"}, {"type": "double", "name": "HadDiabetes"},
+    {"type": "double", "name": "DeafOrHardOfHearing"}, {"type": "double", "name":
+    "BlindOrVisionDifficulty"}, {"type": "double", "name": "DifficultyConcentrating"},
+    {"type": "double", "name": "DifficultyWalking"}, {"type": "double", "name": "DifficultyDressingBathing"},
+    {"type": "double", "name": "DifficultyErrands"}, {"type": "double", "name": "ChestScan"},
+    {"type": "double", "name": "AlcoholDrinkers"}, {"type": "double", "name": "FluVaxLast12"},
+    {"type": "double", "name": "PneumoVaxEver"}, {"type": "double", "name": "Sex_Male"},
+    {"type": "double", "name": "LastCheckupTime_Ancient"}, {"type": "double", "name":
+    "LastCheckupTime_Intermediate"}, {"type": "double", "name": "LastCheckupTime_Recently"},
+    {"type": "double", "name": "RemovedTeeth_Many"}, {"type": "double", "name": "RemovedTeeth_None"},
+    {"type": "double", "name": "SmokerStatus_Current"}, {"type": "double", "name":
+    "SmokerStatus_Former"}, {"type": "double", "name": "SmokerStatus_Never"}, {"type":
+    "double", "name": "RaceEthnicityCategory_Hispanic"}, {"type": "double", "name":
+    "RaceEthnicityCategory_White"}, {"type": "double", "name": "GeneralHealth_exp2"},
+    {"type": "double", "name": "GeneralHealth_exp3"}, {"type": "double", "name": "SleepHours_exp2"},
+    {"type": "double", "name": "AgeCategory_exp3"}]'
+  outputs: '[{"type": "long"}]'
+  params: null
+utc_time_created: '2025-10-10 13:45:06.952528'
